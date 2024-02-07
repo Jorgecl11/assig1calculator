@@ -58,6 +58,7 @@ public class Calculator {
         System.out.print("Do you want to perform another calculation? (yes/no): ");
         String answer = input.next();
         if (answer.equalsIgnoreCase("yes")) {
+            //Clear screen
             for (int i = 0; i < 10; i++) {
                 System.out.println("\n");
             }
