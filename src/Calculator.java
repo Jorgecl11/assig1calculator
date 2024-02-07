@@ -24,7 +24,8 @@ public class Calculator {
         System.out.print("Enter the operation number: ");
         int option = input.nextInt();
         while (option > 4 || option <= 0) {
-            System.out.print("Error! choose an option from 1-4!");
+            System.out.println("\nError! choose an option from 1-4!");
+            System.out.print("Enter the operation number: ");
             option = input.nextInt();
         }
 
